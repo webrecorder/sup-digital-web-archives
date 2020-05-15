@@ -1,0 +1,60 @@
+body {
+  font-family: 'Raleway', 'Trebuchet MS', Arial, sans-serif;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #B4BEB6;
+}
+replay-web-page {
+  flex: 1;
+  display: flex;
+  flex-basis: auto;
+  height: 650px;
+  font-size: 24px;
+  text-align: center;
+}
+header {
+  font-size: 24px;
+}
+header-label {
+  font-size: 18px;
+  padding: 0.5em 0 1.0em 0;
+}
+.logo {
+  float: right;
+}
+.logo img {
+  height: 9px;
+}
+.center {
+  text-align: center;
+}
+.flex-col {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+
+}
+.column-half {
+  flex-grow: 1.0;
+  width: 50%;
+  text-align: center;
+}
+article {
+  text-align: center;
+}
+.proj img {
+  max-width: 400px;
+  box-shadow: 6px 10px 6px grey;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #841618;
+}
