@@ -13,15 +13,16 @@ replay-web-page {
   font-size: 24px;
   text-align: center;
 }
-header {
+header .title {
   font-size: 24px;
 }
-header-label {
-  font-size: 18px;
+header .subtitle {
+  font-size: 16px;
   padding: 0.5em 0 1.0em 0;
 }
 .logo {
   float: right;
+  line-height: 2.2em;
 }
 .logo img {
   height: 9px;
@@ -50,6 +51,21 @@ article {
   box-shadow: 6px 10px 6px grey;
 }
 
+.back {
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: top;
+  padding: 8px 0.5em 0 0.5em;
+}
+
+a:hover back {
+  color: #841618;
+}
+
+
+.heading {
+  display: inline-block;
+}
 a {
   text-decoration: none;
   color: black;
