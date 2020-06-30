@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="https://replayweb.page/ui.js"></script>
+    <link href="./styles.css" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header>
+      <a class="back-link" href="/"><img class="back" src="/assets/left-arrow.svg"/></a>
+      <div class="heading">
+        <div class="title">The Chinese Deathscape</div>
+        <span class="subtitle">Web Archive</span>
+      </div>
+      <span class="logo"><img src="/assets/sup_logo.svg"></span>
+    </header>
+    <replay-web-page
+      coll="tcd"
+      config='{"fuzzy": [["http:\/\/a.tile.openstreetmap.org/(.*)", "https://a.tile.openstreetmap.org/$1"]]}'
+      source="https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/tcd.wacz"
+      url="https://chinesedeathscape.supdigital.org/">
+    </replay-web-page>
+  </body>
+</html>
