@@ -10,16 +10,16 @@
       <a class="back-link" href="/"><img class="back" src="/assets/left-arrow.svg"/></a>
       <div class="heading">
         <div class="title">Constructing the Sacred</div>
-        <span class="subtitle">Web Archive + Preserved Server</span>
+        <span class="subtitle">Web Archive</span>
       </div>
       <span class="logo"><img src="/assets/sup_logo.svg"></span>
     </header>
     <replay-web-page
       coll="cts"
-      config='{"es": [["http://constructingthesacred.supdigital.org/", "https://cts.sup.webrecorder.net"], ["https://constructingthesacred.supdigital.org/", "https://cts.sup.webrecorder.net"]]}'
       deepLink="true"
-      source="https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/cts.wacz"
-      url="http://constructingthesacred.supdigital.org/cts/introduction/" ts="20200511161857">
+      config='{"fuzzy": [["(https?:\/\/.+)[?]path=.*", "$1"], ["(https?:\/\/.+)\\.\\d+", "$1"]]}'
+      source="https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/ctsall.wacz"
+      url="http://constructingthesacred.supdigital.org/cts/introduction/" ts="20200720015059">
     </replay-web-page>
   </body>
 </html>
