@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <link href="./assets/styles.css" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header>
+      <span class="logo"><img src="/assets/sup_logo.svg"></span>
+    </header>
+
+    <h1 class="title center">Stanford Digital Publication Web Archives</h1>
+
+    <article>
+    {% for project in projects %}
+      <div class="entry">
+        <a href="/{{ project.filename }}">
+        <h2 class="center">{{ project.title }}</h2>
+        <span class="proj"><img src="{{ project.thumbUrl }}"></span>
+        </a>
+      </div>
+    {% endfor %}
+    </article>
+  </body>
+</html>

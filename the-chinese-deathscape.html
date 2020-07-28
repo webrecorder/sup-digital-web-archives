@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <script src="https://replayweb.page/ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/replaywebpage@1.0.2/ui.js"></script>
     <link href="./styles.css" rel="stylesheet"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
@@ -16,9 +16,10 @@
     </header>
     <replay-web-page
       coll="tcd"
-      config='{"fuzzy": [["http:\/\/a.tile.openstreetmap.org\/(.*)", "https://a.tile.openstreetmap.org/$1"], ["https?:\/\/[bc].tiles.wmflabs.org\/(.*)", "http://a.tiles.wmflabs.org/$1"]]}'
+      config='{"fuzzy": [["http://a.tile.openstreetmap.org/(.*)", "https://a.tile.openstreetmap.org/$1"], ["https?://[bc].tiles.wmflabs.org/(.*)", "http://a.tiles.wmflabs.org/$1"]]}'
       source="https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/tcd.wacz"
-      url="https://chinesedeathscape.supdigital.org/">
+      url="https://chinesedeathscape.supdigital.org/"
+      ts="202006025095310">
     </replay-web-page>
   </body>
 </html>

@@ -1,0 +1,77 @@
+{
+  "projects": [{
+    "title": "Enchanting the Desert",
+    "filename": "enchanting-the-desert.html",
+    "thumbUrl": "./assets/etd.jpg",
+    "embed": {
+      "id": "etd",
+      "sourceUrl": "https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/etd.wacz",
+      "url": "http://enchantingthedesert.com/console/",
+      "ts": "20170706223633"
+    }
+  },
+  {
+    "title": "Filming Revolution",
+    "filename": "filming-revolution.html",
+    "thumbUrl": "./assets/fr.jpg",
+    "embed": {
+      "id": "fr",
+      "sourceUrl": "https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/fr.wacz",
+      "config": {"fuzzy": [["(https:\/\/filmingrevolution.supdigital.org/).*", "$1"]]},
+      "url": "https://filmingrevolution.supdigital.org/",
+      "ts": "20200511161857"
+    }
+  },
+  {
+    "title": "Black Quotidian",
+    "filename": "black-quotidian.html",
+    "thumbUrl": "./assets/bq.jpg",
+    "embed": {
+      "id": "bq",
+      "sourceUrl": "https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/bq.wacz",
+      "config": {"fuzzy": [["(https?:\/\/.+)[?]path=.*", "$1"], ["(https?:\/\/.+)\\.\\d+", "$1"]]},
+      "deepLink": true,
+      "url": "http://blackquotidian.supdigital.org/bq/overview",
+      "ts": "20200718001012"
+    }
+  },
+  {
+    "title": "When Melodies Gather",
+    "filename": "when-melodies-gather.html",
+    "thumbUrl": "./assets/wmg.jpg",
+    "embed": {
+      "id": "wmg",
+      "sourceUrl": "https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/wmg.wacz",
+      "config": {"fuzzy": [["(https?:\/\/.+)[?]path=.*", "$1"], ["(https?:\/\/.+)\\.\\d+", "$1"]]},
+      "deepLink": true,
+      "url": "http://whenmelodiesgather.supdigital.org/wmg/introductory-page",
+      "ts": "20200719033645"
+    }
+  },
+  {
+    "title": "Constructing the Sacred",
+    "filename": "constructing-the-sacred.html",
+    "thumbUrl": "./assets/cts.jpg",
+    "embed": {
+      "id": "cts",
+      "sourceUrl": "https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/cts.wacz",
+      "config": {"fuzzy": [["(https?:\/\/.+)[?]path=.*", "$1"], ["(https?:\/\/.+)\\.\\d+", "$1"]]},
+      "deepLink": true,
+      "url": "http://constructingthesacred.supdigital.org/cts/introduction",
+      "ts": "20200720015059"
+    }
+  },
+  {
+    "title": "The Chinese Deathscape",
+    "filename": "the-chinese-deathscape.html",
+    "thumbUrl": "./assets/tcd.jpg",
+    "embed": {
+      "id": "tcd",
+      "sourceUrl": "https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/tcd.wacz",
+      "config": {"fuzzy": [["http:\/\/a.tile.openstreetmap.org\/(.*)", "https://a.tile.openstreetmap.org/$1"], ["https?:\/\/[bc].tiles.wmflabs.org\/(.*)", "http://a.tiles.wmflabs.org/$1"]]},
+      "url": "https://chinesedeathscape.supdigital.org/",
+      "ts": "202006025095310"
+    }
+  }
+  ]
+}

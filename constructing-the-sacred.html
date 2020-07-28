@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <script src="https://replayweb.page/ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/replaywebpage@1.0.2/ui.js"></script>
     <link href="./styles.css" rel="stylesheet"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
@@ -16,10 +16,11 @@
     </header>
     <replay-web-page
       coll="cts"
+      config='{"fuzzy": [["(https?://.+)[?]path=.*", "$1"], ["(https?://.+)\\.\\d+", "$1"]]}'
       deepLink="true"
-      config='{"fuzzy": [["(https?:\/\/.+)[?]path=.*", "$1"], ["(https?:\/\/.+)\\.\\d+", "$1"]]}'
       source="https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/cts.wacz"
-      url="http://constructingthesacred.supdigital.org/cts/introduction" ts="20200720015059">
+      url="http://constructingthesacred.supdigital.org/cts/introduction"
+      ts="20200720015059">
     </replay-web-page>
   </body>
 </html>

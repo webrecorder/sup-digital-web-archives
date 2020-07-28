@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <script src="https://replayweb.page/ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/replaywebpage@1.0.2/ui.js"></script>
     <link href="./styles.css" rel="stylesheet"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
@@ -16,10 +16,11 @@
     </header>
     <replay-web-page
       coll="wmg"
+      config='{"fuzzy": [["(https?://.+)[?]path=.*", "$1"], ["(https?://.+)\\.\\d+", "$1"]]}'
       deepLink="true"
-      config='{"fuzzy": [["(https?:\/\/.+)[?]path=.*", "$1"], ["(https?:\/\/.+)\\.\\d+", "$1"]]}'
       source="https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/wmg.wacz"
-      url="http://whenmelodiesgather.supdigital.org/wmg/introductory-page" ts="20200719033645">
+      url="http://whenmelodiesgather.supdigital.org/wmg/introductory-page"
+      ts="20200719033645">
     </replay-web-page>
   </body>
 </html>
