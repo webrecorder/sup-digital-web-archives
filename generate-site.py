@@ -3,13 +3,24 @@
 import json
 import os
 from jinja2 import Environment, FileSystemLoader, select_autoescape
+from argparse import ArgumentParser
 
 
-def main():
+DEFAULT_RWP = "https://cdn.jsdelivr.net/npm/replaywebpage@1.0.2/"
+
+
+def main(args=None):
     """ Generate the html for:
         - Each project page using templates/proj-template.html
         - Index with links to each project from templates/index-template.html
     """
+    parser = ArgumentParser()
+    parser.add_argument("-p", "--prefix", default=DEFAULT_RWP)
+
+    res = parser.parse_args(args=args)
+
+    rwp_prefix = res.prefix.rstrip("/")
+
     env = Environment(
         loader=FileSystemLoader("templates"),
         autoescape=select_autoescape(["html", "xml"]),
@@ -23,7 +34,7 @@ def main():
     # generate project templates
     for project in projects["projects"]:
         template = env.get_template("proj-template.html")
-        res = template.render(project=project)
+        res = template.render(project=project, rwp_prefix=rwp_prefix)
         with open(project["filename"], "wt") as fh:
             print("Generating Project ({0})".format(project["filename"]))
             fh.write(res)
@@ -34,6 +45,12 @@ def main():
     with open("index.html", "wt") as fh:
         print("Generate Index (index.html)")
         fh.write(index)
+
+
+    template = env.get_template("sw.js")
+    with open(os.path.join("replay", "sw.js"), "wt") as fh:
+        print("Generate SW (sw.js)")
+        fh.write(template.render(rwp_prefix=rwp_prefix))
 
 
 if __name__ == "__main__":
