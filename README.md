@@ -1,10 +1,14 @@
 # Stanford University Press Digital Publication Web Archives
 
-This repository contains the site for [https://sup.webrecorder.net/](https://sup.webrecorder.net/).
+This repository contains the site for [https://sup.webrecorder.net/](https://sup.webrecorder.net/)
 
-The site includes **6** web archives of [SUP Digital](https://www.sup.org/digital/), embedded using the latest [ReplayWeb.page](https://replayweb.page) system.
+The site includes **6** web archives of [SUP Digital](https://www.sup.org/digital/) publications,
+presented using the [ReplayWeb.page](https://replayweb.page) browser-based replay system.
 
 The site embeds the web archives loaded from static storage in the browser and can be hosted on any web server.
+
+The web archives are stored using the new [WACZ](https://github.com/webrecorder/wacz-format) format, which contains WARCs, indexes and other
+metadata about the archive all in one file.
 
 
 ## Publications
@@ -48,11 +52,15 @@ The repository contains the following data files:
 
  - Templates (for this README, index page and project pages): [templates/](templates/)
 
+
 ### Update web archive paths
 
-The data JSON specifies the location of the static web archives, in [WACZ](https://github.com/webrecorder/wacz-format) format.
+The data JSON specifies the location of the hosted web archive (WACZ) files.
+
+The files are too big to be in git but can be placed on any cloud or local storage.
 
 To update the location of the WACZ files, simply update the `sourceUrl` paths in the [data/projects.json](data/projects.json)
+
 
 ### Update the site pages
 
@@ -65,6 +73,7 @@ To update the site UI, simply change the [templates/proj-template.html](template
 The site is configured to use the latest release of [ReplayWeb.page](https://replayweb.page)
 
 To build with a different version specify the version from which to load replayweb.page, ex: `python generate.py -p https://replayweb.page/`
+
 
 ### Updating the Domain
 
