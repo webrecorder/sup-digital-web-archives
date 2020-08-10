@@ -40,6 +40,7 @@
     "title": "When Melodies Gather",
     "filename": "when-melodies-gather.html",
     "thumbUrl": "./assets/wmg.jpg",
+    "hasText": true,
     "embed": {
       "id": "wmg",
       "sourceUrl": "https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/wmg.wacz",
