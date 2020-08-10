@@ -26,6 +26,7 @@
     "title": "Black Quotidian",
     "filename": "black-quotidian.html",
     "thumbUrl": "./assets/bq.jpg",
+    "hasText": true,
     "embed": {
       "id": "bq",
       "sourceUrl": "https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/bq.wacz",
@@ -52,6 +53,7 @@
     "title": "Constructing the Sacred",
     "filename": "constructing-the-sacred.html",
     "thumbUrl": "./assets/cts.jpg",
+    "hasText": true,
     "embed": {
       "id": "cts",
       "sourceUrl": "https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/cts.wacz",
@@ -65,6 +67,7 @@
     "title": "The Chinese Deathscape",
     "filename": "the-chinese-deathscape.html",
     "thumbUrl": "./assets/tcd.jpg",
+    "hasText": true,
     "embed": {
       "id": "tcd",
       "sourceUrl": "https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/tcd.wacz",
