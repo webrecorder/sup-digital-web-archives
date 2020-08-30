@@ -15,6 +15,7 @@
       <span class="logo"><img src="/assets/sup_logo.svg"></span>
     </header>
     <replay-web-page
+      embed="replayonly"
       coll="{{ project.embed.id }}"
       {% if project.embed.config %}
       config='{{ project.embed.config | tojson }}'

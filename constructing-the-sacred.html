@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <script src="https://replayweb.page/ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/replaywebpage@1.1.0-beta.1/ui.js"></script>
     <link href="./assets/styles.css" rel="stylesheet"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
@@ -15,6 +15,7 @@
       <span class="logo"><img src="/assets/sup_logo.svg"></span>
     </header>
     <replay-web-page
+      embed="replayonly"
       coll="cts"
       config='{"fuzzy": [["(https?://.+)[?]path=.*", "$1"], ["(https?://.+)\\.\\d+", "$1"]]}'
       deepLink="true"
