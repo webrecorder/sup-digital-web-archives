@@ -1,25 +1,26 @@
 <!doctype html>
 <html>
   <head>
-    <script src="https://cdn.jsdelivr.net/npm/replaywebpage@1.1.0-beta.1/ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/replaywebpage@1.1.0/ui.js"></script>
     <link href="./assets/styles.css" rel="stylesheet"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
     <header>
-      <a class="back-link" href="/"><img class="back" src="/assets/left-arrow.svg"/></a>
+      <a class="back-link" href="./"><img class="back" src="./assets/left-arrow.svg"/></a>
       <div class="heading">
         <div class="title">The Chinese Deathscape</div>
         <span class="subtitle">Web Archive with Text Search</span>
       </div>
-      <span class="logo"><img src="/assets/sup_logo.svg"></span>
+      <span class="logo"><img src="./assets/sup_logo.svg"></span>
     </header>
     <replay-web-page
       coll="tcd"
       config='{"fuzzy": [["http://a.tile.openstreetmap.org/(.*)", "https://a.tile.openstreetmap.org/$1"], ["https?://[bc].tiles.wmflabs.org/(.*)", "http://a.tiles.wmflabs.org/$1"]]}'
+      replayBase="./replay/"
       deepLink="true"
       source="https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/tcd.wacz"
-      url="https://chinesedeathscape.supdigital.org/"
+      url="page:0"
       ts="202006025095310">
     </replay-web-page>
   </body>

@@ -1,23 +1,24 @@
 <!doctype html>
 <html>
   <head>
-    <script src="https://cdn.jsdelivr.net/npm/replaywebpage@1.1.0-beta.1/ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/replaywebpage@1.1.0/ui.js"></script>
     <link href="./assets/styles.css" rel="stylesheet"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
     <header>
-      <a class="back-link" href="/"><img class="back" src="/assets/left-arrow.svg"/></a>
+      <a class="back-link" href="./"><img class="back" src="./assets/left-arrow.svg"/></a>
       <div class="heading">
         <div class="title">Enchanting the Desert</div>
         <span class="subtitle">Web Archive</span>
       </div>
-      <span class="logo"><img src="/assets/sup_logo.svg"></span>
+      <span class="logo"><img src="./assets/sup_logo.svg"></span>
     </header>
     <replay-web-page
       coll="etd"
+      replayBase="./replay/"
       source="https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/etd.wacz"
-      url="http://enchantingthedesert.com/console/"
+      url="page:0"
       ts="20170706223633">
     </replay-web-page>
   </body>

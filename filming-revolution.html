@@ -1,24 +1,25 @@
 <!doctype html>
 <html>
   <head>
-    <script src="https://cdn.jsdelivr.net/npm/replaywebpage@1.1.0-beta.1/ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/replaywebpage@1.1.0/ui.js"></script>
     <link href="./assets/styles.css" rel="stylesheet"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
     <header>
-      <a class="back-link" href="/"><img class="back" src="/assets/left-arrow.svg"/></a>
+      <a class="back-link" href="./"><img class="back" src="./assets/left-arrow.svg"/></a>
       <div class="heading">
         <div class="title">Filming Revolution</div>
         <span class="subtitle">Web Archive</span>
       </div>
-      <span class="logo"><img src="/assets/sup_logo.svg"></span>
+      <span class="logo"><img src="./assets/sup_logo.svg"></span>
     </header>
     <replay-web-page
       coll="fr"
       config='{"fuzzy": [["(https://filmingrevolution.supdigital.org/).*", "$1"]]}'
+      replayBase="./replay/"
       source="https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/fr.wacz"
-      url="https://filmingrevolution.supdigital.org/"
+      url="page:0"
       ts="20200511161857">
     </replay-web-page>
   </body>
