@@ -9,19 +9,19 @@
     <header>
       <a class="back-link" href="./"><img class="back" src="./assets/left-arrow.svg"/></a>
       <div class="heading">
-        <div class="title">Constructing the Sacred</div>
-        <span class="subtitle">Web Archive with Text Search</span>
+        <div class="title">Feral Atlas</div>
+        <span class="subtitle">Web Archive</span>
       </div>
       <span class="logo"><img src="./assets/sup_logo.svg"></span>
     </header>
     <replay-web-page
-      coll="cts"
-      config='{"fuzzy": [["(https?://.+)[?]path=.*", "$1"], ["(https?://.+)\\.\\d+", "$1"]]}'
+      coll="fa"
+      config='{"fuzzy": [["(https://feralatlas.supdigital.org/).*", "$1"]]}'
       replayBase="./replay/"
       deepLink="true"
-      source="https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/cts.wacz"
+      source="https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/fa.wacz"
       url="page:0"
-      ts="20200720015059">
+      ts="20210416010824">
     </replay-web-page>
   </body>
 </html>

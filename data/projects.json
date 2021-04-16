@@ -77,6 +77,19 @@
       "url": "https://chinesedeathscape.supdigital.org/",
       "ts": "202006025095310"
     }
+  },
+  {
+    "title": "Feral Atlas",
+    "filename": "feral-atlas.html",
+    "thumbUrl": "./assets/fa.jpg",
+    "embed": {
+      "id": "fa",
+      "sourceUrl": "https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/fa.wacz",
+      "config": {"fuzzy": [["(https:\/\/feralatlas.supdigital.org/).*", "$1"]]},
+      "deepLink": true,
+      "url": "https://feralatlas.supdigital.org/",
+      "ts": "20210416010824"
+    }
   }
   ]
 }
