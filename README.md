@@ -25,7 +25,7 @@ The site contains the following publications:
 
   5. [Constructing the Sacred](https://sup.webrecorder.net//constructing-the-sacred.html) - (Web Archive File: [Download WACZ](https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/cts.wacz))
 
-  6. [The Chinese Deathscape](https://sup.webrecorder.net//the-chinese-deathscape.html) - (Web Archive File: [Download WACZ](https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/tcd.wacz))
+  6. [The Chinese Deathscape](https://sup.webrecorder.net//the-chinese-deathscape.html) - (Web Archive File: [Download WACZ](https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/tcd2.wacz))
 
   7. [Feral Atlas](https://sup.webrecorder.net//feral-atlas.html) - (Web Archive File: [Download WACZ](https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/fa.wacz))
 

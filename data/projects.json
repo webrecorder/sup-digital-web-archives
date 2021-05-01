@@ -71,7 +71,7 @@
     "hasText": true,
     "embed": {
       "id": "tcd",
-      "sourceUrl": "https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/tcd.wacz",
+      "sourceUrl": "https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/tcd2.wacz",
       "config": {"fuzzy": [["http:\/\/a.tile.openstreetmap.org\/(.*)", "https://a.tile.openstreetmap.org/$1"], ["https?:\/\/[bc].tiles.wmflabs.org\/(.*)", "http://a.tiles.wmflabs.org/$1"]]},
       "deepLink": true,
       "url": "https://chinesedeathscape.supdigital.org/",
