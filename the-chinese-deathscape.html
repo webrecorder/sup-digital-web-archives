@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <script src="https://replayweb.page/ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/replaywebpage@1.4.3-beta.0/ui.js"></script>
     <link href="./assets/styles.css" rel="stylesheet"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
@@ -16,11 +16,12 @@
     </header>
     <replay-web-page
       coll="tcd2"
-      config='{"fuzzy": [["http://a.tile.openstreetmap.org/(.*)", "https://a.tile.openstreetmap.org/$1"], ["https?://[bc].tiles.wmflabs.org/(.*)", "http://a.tiles.wmflabs.org/$1"]]}'
+      config='{"fuzzy": [["http://a.tile.openstreetmap.org/(.*)", "https://a.tile.openstreetmap.org/$1"], ["https?://[bc].tiles.wmflabs.org/(.*)", "http://a.tiles.wmflabs.org/$1"]], "liveRedirectOnNotFound": true}'
       replayBase="./replay/"
       deepLink="true"
       noSandbox="true"
       source="https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/tcd2.wacz"
+      liveRedirectOnNotFound="true"
       url="page:0"
       ts="202006025095310">
     </replay-web-page>
