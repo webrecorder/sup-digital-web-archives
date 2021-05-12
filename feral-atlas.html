@@ -3,6 +3,8 @@
   <head>
     <script src="https://cdn.jsdelivr.net/npm/replaywebpage@1.4.3-beta.1/ui.js"></script>
     <link href="./assets/styles.css" rel="stylesheet"/>
+    <link rel="shortcut icon" href="./assets/stanford_up_favicon.png">
+    <link rel="apple-touch-icon" href="./assets/stanford_up_favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
@@ -12,11 +14,11 @@
         <div class="title">Feral Atlas</div>
         <span class="subtitle">Web Archive</span>
       </div>
-      <span class="logo"><img src="./assets/sup_logo.svg"></span>
+      <div class="container"><span class="logo"><img src="./assets/sup_logo.svg"></span><span class="colophon"><img src="./assets/stanford_up_logo.svg" width="50" height="50"></span></div>
     </header>
     <replay-web-page
       coll="fa"
-      config='{"fuzzy": [["(https://feralatlas.supdigital.org/).*", "$1"]]}'
+      config='{"fuzzy": [["(https://feralatlas.supdigital.org/).*", "$1"]], "liveRedirectOnNotFound": true}'
       replayBase="./replay/"
       deepLink="true"
       noSandbox="true"
