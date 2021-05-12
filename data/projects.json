@@ -58,7 +58,7 @@
     "embed": {
       "id": "cts2",
       "sourceUrl": "https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/cts2.wacz",
-      "config": {"fuzzy": [["(https?:\/\/.+)[?]path=.*", "$1"], ["(https?:\/\/.+)\\.\\d+", "$1"]]},
+      "config": {"liveRedirectOnNotFound": true, "fuzzy": [["(https?:\/\/.+)[?]path=.*", "$1"], ["(https?:\/\/.+)\\.\\d+", "$1"]]},
       "deepLink": true,
       "url": "http://constructingthesacred.supdigital.org/cts/introduction",
       "ts": "20200720015059"

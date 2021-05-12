@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <script src="https://cdn.jsdelivr.net/npm/replaywebpage@1.4.3-beta.0/ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/replaywebpage@1.4.3-beta.1/ui.js"></script>
     <link href="./assets/styles.css" rel="stylesheet"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
@@ -16,7 +16,7 @@
     </header>
     <replay-web-page
       coll="cts2"
-      config='{"fuzzy": [["(https?://.+)[?]path=.*", "$1"], ["(https?://.+)\\.\\d+", "$1"]]}'
+      config='{"fuzzy": [["(https?://.+)[?]path=.*", "$1"], ["(https?://.+)\\.\\d+", "$1"]], "liveRedirectOnNotFound": true}'
       replayBase="./replay/"
       deepLink="true"
       noSandbox="true"
