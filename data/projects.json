@@ -86,7 +86,7 @@
     "embed": {
       "id": "fa",
       "sourceUrl": "https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/fa.wacz",
-      "config": {"liveRedirectOnNotFound": true, "fuzzy": [["(https:\/\/feralatlas.supdigital.org/).*", "$1"]]},
+      "config": {"liveRedirectOnNotFound": false, "fuzzy": [["(https:\/\/feralatlas.supdigital.org/).*", "$1"]]},
       "deepLink": true,
       "url": "https://feralatlas.supdigital.org/",
       "ts": "20210416010824"
