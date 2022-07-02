@@ -91,6 +91,19 @@
       "url": "https://feralatlas.supdigital.org/",
       "ts": "20210416010824"
     }
+  },
+  {
+    "title": "Shadow Plays",
+    "filename": "shadow-plays.html",
+    "thumbUrl": "./assets/sp.jpg",
+    "embed": {
+      "id": "sp",
+      "sourceUrl": "https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/sp-v1.wacz",
+      "config": {"liveRedirectOnNotFound": true, "fuzzy": [["(https?:\/\/.+)[?]path=.*", "$1"], ["(https?:\/\/.+)\\.\\d+", "$1"]]},
+      "deepLink": true,
+      "url": "https://shadow-plays.supdigital.org/sp/toc",
+      "ts": "20200719033645"
+    }
   }
   ]
 }

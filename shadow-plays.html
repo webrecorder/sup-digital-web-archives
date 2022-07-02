@@ -11,20 +11,21 @@
     <header>
       <a class="back-link" href="./"><img class="back" src="./assets/left-arrow.svg"/></a>
       <div class="heading">
-        <div class="title">Enchanting the Desert</div>
+        <div class="title">Shadow Plays</div>
         <span class="subtitle">Web Archive</span>
       </div>
       <div class="container"><span class="logo"><img src="./assets/sup_logo.svg"></span><span class="colophon"><img src="./assets/stanford_up_logo.svg" width="50" height="50"></span></div>
     </header>
     <replay-web-page
-      coll="etd"
-      config='{"liveRedirectOnNotFound": true}'
+      coll="sp"
+      config='{"fuzzy": [["(https?://.+)[?]path=.*", "$1"], ["(https?://.+)\\.\\d+", "$1"]], "liveRedirectOnNotFound": true}'
       replayBase="./replay/"
+      deepLink="true"
       noSandbox="true"
-      source="https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/etd.wacz"
+      source="https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/sp-v1.wacz"
       liveRedirectOnNotFound="true"
       url="page:0"
-      ts="20170706223633">
+      ts="20200719033645">
     </replay-web-page>
   </body>
 </html>

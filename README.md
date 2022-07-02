@@ -2,7 +2,7 @@
 
 This repository contains the site for [https://sup.webrecorder.net/](https://sup.webrecorder.net/)
 
-The site includes **7** web archives of [SUP Digital](https://www.sup.org/digital/) publications,
+The site includes **8** web archives of [SUP Digital](https://www.sup.org/digital/) publications,
 presented using the [ReplayWeb.page](https://replayweb.page) browser-based replay system.
 
 The site embeds the web archives loaded from static storage in the browser and can be hosted on any web server.
@@ -28,6 +28,8 @@ The site contains the following publications:
   6. [The Chinese Deathscape](https://sup.webrecorder.net//the-chinese-deathscape.html) - (Web Archive File: [Download WACZ](https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/tcd2.wacz))
 
   7. [Feral Atlas](https://sup.webrecorder.net//feral-atlas.html) - (Web Archive File: [Download WACZ](https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/fa.wacz))
+
+  8. [Shadow Plays](https://sup.webrecorder.net//shadow-plays.html) - (Web Archive File: [Download WACZ](https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/sp-v1.wacz))
 
 
 
