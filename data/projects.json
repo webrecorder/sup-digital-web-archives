@@ -96,6 +96,7 @@
     "title": "Shadow Plays",
     "filename": "shadow-plays.html",
     "thumbUrl": "./assets/sp.jpg",
+    "hasText": true,
     "embed": {
       "id": "sp",
       "sourceUrl": "https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/sp-v2.wacz",
