@@ -29,7 +29,7 @@ The site contains the following publications:
 
   7. [Feral Atlas](https://sup.webrecorder.net//feral-atlas.html) - (Web Archive File: [Download WACZ](https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/fa.wacz))
 
-  8. [Shadow Plays](https://sup.webrecorder.net//shadow-plays.html) - (Web Archive File: [Download WACZ](https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/sp-v1.wacz))
+  8. [Shadow Plays](https://sup.webrecorder.net//shadow-plays.html) - (Web Archive File: [Download WACZ](https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/sp-v2.wacz))
 
 
 

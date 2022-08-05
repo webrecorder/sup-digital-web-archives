@@ -98,7 +98,7 @@
     "thumbUrl": "./assets/sp.jpg",
     "embed": {
       "id": "sp",
-      "sourceUrl": "https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/sp-v1.wacz",
+      "sourceUrl": "https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/sp-v2.wacz",
       "config": {"liveRedirectOnNotFound": true, "fuzzy": [["(https?:\/\/.+)[?]path=.*", "$1"], ["(https?:\/\/.+)\\.\\d+", "$1"]]},
       "deepLink": true,
       "url": "https://shadow-plays.supdigital.org/sp/toc",
