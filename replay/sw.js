@@ -1,1 +1,1 @@
-importScripts("https://cdn.jsdelivr.net/npm/replaywebpage@1.6.0/sw.js");
+importScripts("https://cdn.jsdelivr.net/npm/replaywebpage@1.6.3/sw.js");

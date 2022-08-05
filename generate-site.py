@@ -6,7 +6,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 from argparse import ArgumentParser
 
 
-DEFAULT_RWP = "https://cdn.jsdelivr.net/npm/replaywebpage@1.6.0"
+DEFAULT_RWP = "https://cdn.jsdelivr.net/npm/replaywebpage@1.6.3"
 DEFAULT_DOMAIN = "https://sup.webrecorder.net/"
 
 
