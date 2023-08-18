@@ -10,20 +10,21 @@
   <body>
     <header>
       <div class="heading">
-        <div class="title">Enchanting the Desert</div>
-        <div class="author">Nicholas Bauch</div>
+        <div class="title">Transmedia Stories</div>
+        <div class="author">Patrick Jagoda with Ireashia Bennett and Ashlyn Sparrow</div>
         <span class="subtitle">Web Archive</span>
       </div>
       <div class="container"><span class="logo"><img src="./assets/sup_logo.svg"></span><span class="colophon"><img src="./assets/stanford_up_logo.svg" width="50" height="50"></span></div>
     </header>
     <replay-web-page
-      coll="etd"
-      config='{"liveRedirectOnNotFound": true}'
+      coll="tm"
+      config='{"fuzzy": [["(https?://.+)[?]path=.*", "$1"], ["(https?://.+)\\.\\d+", "$1"]], "liveRedirectOnNotFound": true}'
       replayBase="./replay/"
-      source="https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/etd.wacz"
+      deepLink="true"
+      source="https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/transmedia-stories.wacz"
       liveRedirectOnNotFound="true"
-      url="http://enchantingthedesert.com/console/"
-      ts="20170706223633">
+      url="https://transmediastories.supdigital.org/ts/custom-contents"
+      ts="20230816035522">
     </replay-web-page>
   </body>
 </html>

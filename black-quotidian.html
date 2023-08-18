@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <script src="https://cdn.jsdelivr.net/npm/replaywebpage@1.6.3/ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/replaywebpage@1.8.8/ui.js"></script>
     <link href="./assets/styles.css" rel="stylesheet"/>
     <link rel="shortcut icon" href="./assets/stanford_up_favicon.png">
     <link rel="apple-touch-icon" href="./assets/stanford_up_favicon.png">
@@ -9,9 +9,9 @@
   </head>
   <body>
     <header>
-      <a class="back-link" href="./"><img class="back" src="./assets/left-arrow.svg"/></a>
       <div class="heading">
         <div class="title">Black Quotidian</div>
+        <div class="author">Matthew F. Delmont</div>
         <span class="subtitle">Web Archive with Text Search</span>
       </div>
       <div class="container"><span class="logo"><img src="./assets/sup_logo.svg"></span><span class="colophon"><img src="./assets/stanford_up_logo.svg" width="50" height="50"></span></div>
@@ -21,10 +21,9 @@
       config='{"fuzzy": [["(https?://.+)[?]path=.*", "$1"], ["(https?://.+)\\.\\d+", "$1"]], "liveRedirectOnNotFound": true}'
       replayBase="./replay/"
       deepLink="true"
-      noSandbox="true"
       source="https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/bq.wacz"
       liveRedirectOnNotFound="true"
-      url="page:0"
+      url="http://blackquotidian.supdigital.org/bq/overview"
       ts="20200718001012">
     </replay-web-page>
   </body>

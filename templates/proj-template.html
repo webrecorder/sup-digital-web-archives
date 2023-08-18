@@ -9,9 +9,9 @@
   </head>
   <body>
     <header>
-      <a class="back-link" href="./"><img class="back" src="./assets/left-arrow.svg"/></a>
       <div class="heading">
         <div class="title">{{ project.title }}</div>
+        <div class="author">{{ project.author }}</div>
         <span class="subtitle">Web Archive{{ ' with Text Search' if project.hasText else '' }}</span>
       </div>
       <div class="container"><span class="logo"><img src="./assets/sup_logo.svg"></span><span class="colophon"><img src="./assets/stanford_up_logo.svg" width="50" height="50"></span></div>
@@ -25,10 +25,9 @@
       {% if project.embed.deepLink %}
       deepLink="true"
       {% endif %}
-      noSandbox="true"
       source="{{ project.embed.sourceUrl }}"
       liveRedirectOnNotFound="true"
-      url="page:0"
+      url="{{ project.embed.url if project.embed.url else 'page:0'}}"
       ts="{{ project.embed.ts }}">
     </replay-web-page>
   </body>

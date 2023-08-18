@@ -1,6 +1,7 @@
 {
   "projects": [{
     "title": "Enchanting the Desert",
+    "author": "Nicholas Bauch",
     "filename": "enchanting-the-desert.html",
     "thumbUrl": "./assets/etd.jpg",
     "embed": {
@@ -13,6 +14,7 @@
   },
   {
     "title": "Filming Revolution",
+    "author": "Alisa Lebow",
     "filename": "filming-revolution.html",
     "thumbUrl": "./assets/fr.jpg",
     "embed": {
@@ -25,6 +27,7 @@
   },
   {
     "title": "Black Quotidian",
+    "author": "Matthew F. Delmont",
     "filename": "black-quotidian.html",
     "thumbUrl": "./assets/bq.jpg",
     "hasText": true,
@@ -39,6 +42,7 @@
   },
   {
     "title": "When Melodies Gather",
+    "author": "Samuel Liebhaber",
     "filename": "when-melodies-gather.html",
     "thumbUrl": "./assets/wmg.jpg",
     "hasText": true,
@@ -53,6 +57,7 @@
   },
   {
     "title": "Constructing the Sacred",
+    "author": "Elaine A. Sullivan",
     "filename": "constructing-the-sacred.html",
     "thumbUrl": "./assets/cts.jpg",
     "hasText": true,
@@ -67,6 +72,7 @@
   },
   {
     "title": "The Chinese Deathscape",
+    "author": "Thomas S. Mullaney, ed.",
     "filename": "the-chinese-deathscape.html",
     "thumbUrl": "./assets/tcd.jpg",
     "hasText": true,
@@ -81,6 +87,7 @@
   },
   {
     "title": "Feral Atlas",
+    "author": "Anna L. Tsing, Jennifer Deger, Alder Keleman Saxena, and Feifei Zhou, eds.",
     "filename": "feral-atlas.html",
     "thumbUrl": "./assets/fa.jpg",
     "embed": {
@@ -94,6 +101,7 @@
   },
   {
     "title": "Shadow Plays",
+    "author": "Massimo Riva",
     "filename": "shadow-plays.html",
     "thumbUrl": "./assets/sp.jpg",
     "hasText": true,
@@ -104,6 +112,36 @@
       "deepLink": true,
       "url": "https://shadow-plays.supdigital.org/sp/toc",
       "ts": "20200719033645"
+    }
+  },
+  {
+    "title": "Layered Lives",
+    "author": "Taylor Arnold, Courtney Rivard, and Lauren Tilton",
+    "filename": "layered-lives.html",
+    "thumbUrl": "./assets/ll.jpg",
+    "hasText": false,
+    "embed": {
+      "id": "ll",
+      "sourceUrl": "https://stacks.stanford.edu/file/druid:jm374kc0685/ll.wacz",
+      "config": {"liveRedirectOnNotFound": true, "fuzzy": [["(https://layeredlives.supdigital.org/).*", "$1"]]},
+      "deepLink": true,
+      "url": "https://layeredlives.supdigital.org",
+      "ts": "20230207002827"
+    }
+  },
+  {
+    "title": "Transmedia Stories",
+    "author": "Patrick Jagoda with Ireashia Bennett and Ashlyn Sparrow",
+    "filename": "transmedia-stories.html",
+    "thumbUrl": "./assets/tm.jpg",
+    "hasText": false,
+    "embed": {
+      "id": "tm",
+      "sourceUrl": "https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/transmedia-stories.wacz",
+      "config": {"liveRedirectOnNotFound": true, "fuzzy": [["(https?:\/\/.+)[?]path=.*", "$1"], ["(https?:\/\/.+)\\.\\d+", "$1"]]},
+      "deepLink": true,
+      "url": "https://transmediastories.supdigital.org/ts/custom-contents",
+      "ts": "20230816035522"
     }
   }
   ]

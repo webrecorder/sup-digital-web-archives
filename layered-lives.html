@@ -10,20 +10,21 @@
   <body>
     <header>
       <div class="heading">
-        <div class="title">Enchanting the Desert</div>
-        <div class="author">Nicholas Bauch</div>
+        <div class="title">Layered Lives</div>
+        <div class="author">Taylor Arnold, Courtney Rivard, and Lauren Tilton</div>
         <span class="subtitle">Web Archive</span>
       </div>
       <div class="container"><span class="logo"><img src="./assets/sup_logo.svg"></span><span class="colophon"><img src="./assets/stanford_up_logo.svg" width="50" height="50"></span></div>
     </header>
     <replay-web-page
-      coll="etd"
-      config='{"liveRedirectOnNotFound": true}'
+      coll="ll"
+      config='{"fuzzy": [["(https://layeredlives.supdigital.org/).*", "$1"]], "liveRedirectOnNotFound": true}'
       replayBase="./replay/"
-      source="https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/etd.wacz"
+      deepLink="true"
+      source="https://stacks.stanford.edu/file/druid:jm374kc0685/ll.wacz"
       liveRedirectOnNotFound="true"
-      url="http://enchantingthedesert.com/console/"
-      ts="20170706223633">
+      url="https://layeredlives.supdigital.org"
+      ts="20230207002827">
     </replay-web-page>
   </body>
 </html>

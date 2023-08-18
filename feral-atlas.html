@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <script src="https://cdn.jsdelivr.net/npm/replaywebpage@1.6.3/ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/replaywebpage@1.8.8/ui.js"></script>
     <link href="./assets/styles.css" rel="stylesheet"/>
     <link rel="shortcut icon" href="./assets/stanford_up_favicon.png">
     <link rel="apple-touch-icon" href="./assets/stanford_up_favicon.png">
@@ -9,9 +9,9 @@
   </head>
   <body>
     <header>
-      <a class="back-link" href="./"><img class="back" src="./assets/left-arrow.svg"/></a>
       <div class="heading">
         <div class="title">Feral Atlas</div>
+        <div class="author">Anna L. Tsing, Jennifer Deger, Alder Keleman Saxena, and Feifei Zhou, eds.</div>
         <span class="subtitle">Web Archive</span>
       </div>
       <div class="container"><span class="logo"><img src="./assets/sup_logo.svg"></span><span class="colophon"><img src="./assets/stanford_up_logo.svg" width="50" height="50"></span></div>
@@ -21,10 +21,9 @@
       config='{"fuzzy": [["(https://feralatlas.supdigital.org/).*", "$1"]], "liveRedirectOnNotFound": false}'
       replayBase="./replay/"
       deepLink="true"
-      noSandbox="true"
       source="https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/fa.wacz"
       liveRedirectOnNotFound="true"
-      url="page:0"
+      url="https://feralatlas.supdigital.org/"
       ts="20210416010824">
     </replay-web-page>
   </body>
