@@ -77,7 +77,7 @@
     "thumbUrl": "./assets/tcd.jpg",
     "hasText": true,
     "embed": {
-      "id": "tcd2",
+      "id": "tcd",
       "sourceUrl": "https://dh-preserve.sfo2.cdn.digitaloceanspaces.com/webarchives/sup/tcd2.wacz",
       "config": {"liveRedirectOnNotFound": true, "fuzzy": [["http:\/\/a.tile.openstreetmap.org\/(.*)", "https://a.tile.openstreetmap.org/$1"], ["https?:\/\/[bc].tiles.wmflabs.org\/(.*)", "http://a.tiles.wmflabs.org/$1"]]},
       "deepLink": true,
