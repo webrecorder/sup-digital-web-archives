@@ -143,6 +143,51 @@
       "url": "https://transmediastories.supdigital.org/ts/custom-contents",
       "ts": "20230816035522"
     }
-  }
+  },
+    {
+    "title": "America's Public Bible",
+    "author": "Lincoln Mullen",
+    "filename": "americas-public-bible.html",
+    "thumbUrl": "./assets/apb.jpg",
+    "hasText": false,
+    "embed": {
+      "id": "apb",
+      "sourceUrl": "https://stacks.stanford.edu/file/druid:nw289ms9710/apb.wacz",
+      "config": {"liveRedirectOnNotFound": false, "fuzzy": [["(https:\/\/americaspublicbible.supdigital.org/).*", "$1"]]},
+      "deepLink": true,
+      "url": "https://americaspublicbible.supdigital.org",
+      "ts": "20240701125800"
+    }
+  },
+   {
+    "title": "Ego Media",
+    "author": "Max Saunders and Lisa Gee, eds.",
+    "filename": "ego-media.html",
+    "thumbUrl": "./assets/em.jpg",
+    "hasText": false,
+    "embed": {
+      "id": "em",
+      "sourceUrl": "https://stacks.stanford.edu/file/druid:kc966hg9270/em.wacz",
+      "config": {"liveRedirectOnNotFound": false, "fuzzy": [["(https:\/\/egomedia.supdigital.org/).*", "$1"]]},
+      "deepLink": true,
+      "url": "https://egomedia.supdigital.org",
+      "ts": "20231205161700"
+    }
+  },
+   {
+    "title": "Country of Words",
+    "author": "Refqa Abu-Remaileh",
+    "filename": "country-of-words.html",
+    "thumbUrl": "./assets/cw.jpg",
+    "hasText": false,
+    "embed": {
+      "id": "em",
+      "sourceUrl": "https://stacks.stanford.edu/file/druid:gw244nr4392/cw.wacz",
+      "config": {"liveRedirectOnNotFound": false, "fuzzy": [["(https:\/\/countryofwords.supdigital.org/).*", "$1"]]},
+      "deepLink": true,
+      "url": "https://countryofwords.supdigital.org",
+      "ts": "20240703161200"
+    }
+  }     
   ]
 }
