@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <title>America's Public Bible | Archive</title>
+    <script src="https://cdn.jsdelivr.net/npm/replaywebpage@2.0.0/ui.js"></script>
+    <link href="./assets/styles.css" rel="stylesheet"/>
+    <link rel="shortcut icon" href="./assets/stanford_up_favicon.png">
+    <link rel="apple-touch-icon" href="./assets/stanford_up_favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header>
+      <div class="heading">
+        <div class="title">America's Public Bible</div>
+        <div class="author">Lincoln Mullen</div>
+        <span class="subtitle">Web Archive</span>
+      </div>
+      <div class="container"><span class="logo"><img src="./assets/sup_logo.svg"></span><span class="colophon"><img src="./assets/stanford_up_logo.svg" width="50" height="50"></span></div>
+    </header>
+    <replay-web-page
+      coll="apb"
+      config='{"fuzzy": [["(https://americaspublicbible.supdigital.org/).*", "$1"]], "liveRedirectOnNotFound": false}'
+      replayBase="./replay/"
+      deepLink="true"
+      noSandbox="true"
+      source="https://stacks.stanford.edu/file/druid:nw289ms9710/apb.wacz"
+      liveRedirectOnNotFound="true"
+      url="https://americaspublicbible.supdigital.org/"
+      ts="20240701125800">
+    </replay-web-page>
+  </body>
+</html>
