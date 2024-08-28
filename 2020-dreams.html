@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <title>2020 Dreams | Archive</title>
+    <script src="https://cdn.jsdelivr.net/npm/replaywebpage@2.0.0/ui.js"></script>
+    <link href="./assets/styles.css" rel="stylesheet"/>
+    <link rel="shortcut icon" href="./assets/stanford_up_favicon.png">
+    <link rel="apple-touch-icon" href="./assets/stanford_up_favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header>
+      <div class="heading">
+        <div class="title">2020 Dreams</div>
+        <div class="author">Maja Gutman Mušič and Kelly Bulkeley with Sheldon Juncker, Dan Kennedy, Gez Quinn, and Jennifer Marie Lane</div>
+        <span class="subtitle">Web Archive</span>
+      </div>
+      <div class="container"><span class="logo"><img src="./assets/sup_logo.svg"></span><span class="colophon"><img src="./assets/stanford_up_logo.svg" width="50" height="50"></span></div>
+    </header>
+    <replay-web-page
+      coll="2d"
+      config='{"fuzzy": [["(https?://.+)[?]path=.*", "$1"], ["(https?://.+)\\.\\d+", "$1"]], "liveRedirectOnNotFound": false}'
+      replayBase="./replay/"
+      deepLink="true"
+      noSandbox="true"
+      source="https://stacks.stanford.edu/file/druid:yh739tk2490/2d.wacz"
+      liveRedirectOnNotFound="true"
+      url="https://2020dreams.supdigital.org/2d/contents"
+      ts="20240801141900">
+    </replay-web-page>
+  </body>
+</html>
