@@ -203,6 +203,22 @@
       "url": "https://2020dreams.supdigital.org/2d/contents",
       "ts": "20240801141900"
     }
+  },
+               {
+    "title": "Harlem in Disorder",
+    "author": "Stephen Robertson",
+    "filename": "harlem-in-disorder.html",
+    "thumbUrl": "./assets/hid.jpg",
+    "hasText": false,
+    "embed": {
+      "id": "hid",
+      "sourceUrl": "https://stacks.stanford.edu/file/druid:nb781fd3746/hid.wacz",
+      "config": {"liveRedirectOnNotFound": false, "fuzzy": [["(https?:\/\/.+)[?]path=.*", "$1"], ["(https?:\/\/.+)\\.\\d+", "$1"]]},
+      "deepLink": true,
+      "url": "https://harlemindisorder.supdigital.org/hid/introduction",
+      "ts": "20240927170300"
+    }
   }
   ]
-}
+
+
