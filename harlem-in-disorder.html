@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Harlem in Disorder | Archive</title>
+    <script src="https://cdn.jsdelivr.net/npm/replaywebpage@2.0.0/ui.js"></script>
+    <link href="./assets/styles.css" rel="stylesheet"/>
+    <link rel="shortcut icon" href="./assets/stanford_up_favicon.png">
+    <link rel="apple-touch-icon" href="./assets/stanford_up_favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header>
+      <div class="heading">
+        <div class="title">Harlem in Disorder</div>
+        <div class="author">Stephen Robertson</div>
+        <span class="subtitle">Web Archive</span>
+      </div>
+      <div class="container"><span class="logo"><img src="./assets/sup_logo.svg"></span><span class="colophon"><img src="./assets/stanford_up_logo.svg" width="50" height="50"></span></div>
+    </header>
+    <replay-web-page
+      coll="hid"
+      config='{"fuzzy": [["(https?://.+)[?]path=.*", "$1"], ["(https?://.+)\\.\\d+", "$1"]], "liveRedirectOnNotFound": false}'
+      replayBase="./replay/"
+      deepLink="true"
+      noSandbox="true"
+      source="https://stacks.stanford.edu/file/druid:nb781fd3746/hid.wacz"
+      liveRedirectOnNotFound="true"
+      url="https://harlemindisorder.supdigital.org/hid/introduction"
+      ts="20240927170300">
+    </replay-web-page>
+  </body>
+</html>
