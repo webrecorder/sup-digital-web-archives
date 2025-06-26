@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <title>A World Made by Travel | Archive</title>
+    <script src="https://cdn.jsdelivr.net/npm/replaywebpage@2.0.0/ui.js"></script>
+    <link href="./assets/styles.css" rel="stylesheet"/>
+    <link rel="shortcut icon" href="./assets/stanford_up_favicon.png">
+    <link rel="apple-touch-icon" href="./assets/stanford_up_favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header>
+      <div class="heading">
+        <div class="title">A World Made by Travel</div>
+        <div class="author">Giovanna Ceserani</div>
+        <span class="subtitle">Web Archive</span>
+      </div>
+      <div class="container"><span class="logo"><img src="./assets/sup_logo.svg"></span><span class="colophon"><img src="./assets/stanford_up_logo.svg" width="50" height="50"></span></div>
+    </header>
+    <replay-web-page
+      coll="wmt"
+      config='{"fuzzy": [["(https://aworldmadebytravel.supdigital.org/).*", "$1"]], "liveRedirectOnNotFound": false}'
+      replayBase="./replay/"
+      deepLink="true"
+      noSandbox="true"
+      source="https://stacks.stanford.edu/file/druid:wq312tb4909/a-world-made-by-travel.wacz"
+      liveRedirectOnNotFound="true"
+      url="https://aworldmadebytravel.supdigital.org/"
+      ts="20241008165200">
+    </replay-web-page>
+      <h2>Web Archive Limitations</h2>
+      <ul>
+          <li>Please note that if you click an image in the book to view it, you will not be able to close it. Instead, you should navigate back in the archive window in order to close it.</li>
+          <li>The filtering, searching, and browsing features of the Explorer are limited. To access the data behind the Explorer, please see the <a href="https://purl.stanford.edu/zw306dd1178" target="_blank">archived datasets</a> in the Stanford Digial Repository.</li>
+      </ul>
+  </body>
+</html>
