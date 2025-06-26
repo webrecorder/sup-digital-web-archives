@@ -2,7 +2,7 @@
 
 This repository contains the site for [https://archive.supdigital.org](https://archive.supdigital.org)
 
-The site includes **15** web archives of [SUP Digital](https://www.sup.org/digital/) publications,
+The site includes **16** web archives of [SUP Digital](https://www.sup.org/digital/) publications,
 presented using the [ReplayWeb.page](https://replayweb.page) browser-based replay system.
 
 The site embeds the web archives loaded from static storage in the browser and can be hosted on any web server.
@@ -44,6 +44,8 @@ The site contains the following publications:
   14. [2020 Dreams](https://archive.supdigital.org/2020-dreams.html) - (Web Archive File: [Download WACZ](https://stacks.stanford.edu/file/druid:yh739tk2490/2d.wacz))
   
   15. [Harlem in Disorder](https://archive.supdigital.org/harlem-in-disorder.html) - (Web Archive File: [Download WACZ](https://stacks.stanford.edu/file/druid:nb781fd3746/hid.wacz))
+  
+  16. [A World Made by Travel](https://archive.supdigital.org/a-world-made-by-travel) - (Web Archive File: [Download WACZ](https://stacks.stanford.edu/file/druid:wq312tb4909/a-world-made-by-travel.wacz))
 
 
 ## Deploying
