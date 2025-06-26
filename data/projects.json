@@ -204,7 +204,7 @@
       "ts": "20240801141900"
     }
   },
-               {
+    {
     "title": "Harlem in Disorder",
     "author": "Stephen Robertson",
     "filename": "harlem-in-disorder.html",
@@ -218,6 +218,22 @@
       "url": "https://harlemindisorder.supdigital.org/hid/introduction",
       "ts": "20240927170300"
     }
+  },
+    {
+    "title": "A World Made by Travel",
+    "author": "Giovanna Ceserani",
+    "filename": "a-world-made-by-travel.html",
+    "thumbUrl": "./assets/wmbt.jpg",
+    "hasText": false,
+    "embed": {
+      "id": "wmbt",
+      "sourceUrl": "https://stacks.stanford.edu/file/druid:wq312tb4909/a-world-made-by-travel.wacz",
+      "config": {"liveRedirectOnNotFound": false, "fuzzy": [["(https?:\/\/.+)[?]path=.*", "$1"], ["(https?:\/\/.+)\\.\\d+", "$1"]]},
+      "deepLink": true,
+      "url": "https://aworldmadebytravel.supdigital.org",
+      "ts": "20241008165200"
+    }
+  }
   }
   ]
 
